@@ -1,16 +1,20 @@
 {
   "name": "inklude",
   "version": "1.0.0",
-  "description": "include files",
-  "main": "./index.js",
+  "description": "A easy way to require files",
+  "main": "index.js",
   "private": false,
   "scripts": {
     "test": "mocha -S -R spec"
   },
-  "keywords": ["include", "require"],
+  "keywords": [
+    "include",
+    "require",
+    "directory",
+    "files"
+  ],
   "dependencies": {
-    "lodash": "2.4.1",
-    "async":  "0.6.2"
+    "lodash": "2.4.1"
   },
   "author": "luii",
   "repository": "https://github.com/phunguz/inklude",

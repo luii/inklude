@@ -1,0 +1,16 @@
+language: node_js
+
+node_js:
+- '0.11'
+- '0.10'
+- '0.8'
+- '0.6'
+
+deploy:
+  provider: npm
+  email: filli6@web.de
+  api_key:
+    secure: e7cUHThvDLugkJpGcnAF/LEfdf9GCOpKLlHoLDqf49K//HJn7VZ457vZobBEaI8B+fc3kCX5/r7/W0yloGZHV1m9unsqSE6fhXXxbqIqp4Eqbz9lRvESrqVijSUwZd2YulmGlNQOpKuVcG6sgi1BRzUFsAtuLbXZTR3ZzVjqsi0=
+  on:
+    tags: true
+    repo: luii/inklude
