@@ -4,9 +4,7 @@
   "description": "A easy way to require files",
   "main": "index.js",
   "private": false,
-  "scripts": {
-    "test": "mocha -S -R spec"
-  },
+  "scripts": {},
   "keywords": [
     "include",
     "require",
